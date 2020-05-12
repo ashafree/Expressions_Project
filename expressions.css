@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    }
+
+html {
+    width: 100vw;
+    height: 100%;
+    overflow: hidden; 
+    background-image: url(./assets/keshi_photo_cover.jpg);
+    background-color: black;
+    padding: 20px;
+    font-family: 'Caveat', regular;
+    }
+
+.logo {
+    position: fixed;
+    top: -4%;
+}
+
+audio: hover, audio:focus, audio: active{
+    box-shadow: 15px 15px 20px rgba(0,0,0,0.4);
+    transform: scale(1.05);
+}
+audio{
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    transition: all 0.5s linear;
+    border-radius: 7px;
+}
+
+.lyrics {
+    position: fixed;
+    bottom: 7%;
+    left: 5%;
+    color: white;
+    font-size: 25px;
+    max-width: 480px;
+    max-height: 300px;
+    overflow: scroll;
+}
+
+.lyrics .one {
+    cursor: pointer;
+}
+
+.lyrics .one:hover {
+    color: #FE4F99;
+}
+
+.onepic {
+    display: none;
+}
+
+.onepic.appear {
+    display: block;
+    position: fixed;
+    top: 5%;
+    right: 10%;
+    z-index: 3;
+} 
+
+.lyrics .two {
+    cursor: pointer;
+}
+
+.lyrics .two:hover {
+    color: #FE4F99;
+}
+
+.twopic {
+    display: none;
+}
+
+.twopic.appear {
+    display: block;
+    position: fixed;
+    top: 2%;
+    left: 30%;
+    z-index: 3;
+} 
+
+.lyrics .three {
+    cursor: pointer;
+}
+
+.lyrics .three:hover {
+    color: #FE4F99;
+}
+
+.threepic {
+    display: none;
+}
+
+.threepic.appear {
+    display: block;
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    z-index: 3;
+} 
+
+.lyrics .four {
+    cursor: pointer;
+}
+
+.lyrics .four:hover {
+    color: #FE4F99;
+}
+
+.fourpic {
+    display: none;
+}
+
+.fourpic.appear {
+    display: block;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    z-index: 3;
+} 
+
+.lyrics .five {
+    cursor: pointer;
+}
+
+.lyrics .five:hover {
+    color: #FE4F99;
+}
+
+.fivepic {
+    display: none;
+}
+
+.fivepic.appear {
+    display: block;
+    position: fixed;
+    bottom: 10%;
+    right: 10%;
+    z-index: 3;
+} 
+
+.lyrics .six {
+    cursor: pointer;
+}
+
+.lyrics .six:hover {
+    color: #FE4F99;
+}
+
+.sixpic {
+    display: none;
+}
+
+.sixpic.appear {
+    display: block;
+    position: fixed;
+    top: 5%;
+    right: 10%;
+    z-index: 3;
+} 
+
+.lyrics .seven {
+    cursor: pointer;
+}
+
+.lyrics .seven:hover {
+    color: #FE4F99;
+}
+
+.sevenpic {
+    display: none;
+}
+
+.sevenpic.appear {
+    display: block;
+    position: fixed;
+    bottom: 1%;
+    left: 40%;
+    z-index: 3;
+} 
+
+.lyrics .eight {
+    cursor: pointer;
+}
+
+.lyrics .eight:hover {
+    color: #FE4F99;
+}
+
+.eightpic {
+    display: none;
+}
+
+.eightpic.appear {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    z-index: 3;
+} 
+
+.lyrics .nine {
+    cursor: pointer;
+}
+
+.lyrics .nine:hover {
+    color: #FE4F99;
+}
+
+.ninepic {
+    display: none;
+}
+
+.ninepic.appear {
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 10%;
+    z-index: 3;
+} 
+
+.logo .ten {
+    cursor: pointer;
+}
+
+.logo .ten:hover {
+    color: #FE4F99;
+}
+
+.tenpic {
+    display: none;
+}
+
+.tenpic.appear {
+    display: block;
+    position: fixed;
+    top: -3%;
+    right: 0%;
+    z-index: 3;
+} 
